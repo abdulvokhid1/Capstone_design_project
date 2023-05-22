@@ -13,11 +13,8 @@ const Navbar = () => {
       <Center>
         {data.map(({ title, pathname, id }) => {
           return (
-            <PageWrapper>
-              <Link>
-                to-{pathname}
-                {title}
-              </Link>
+            <PageWrapper key={id}>
+              <Link to={pathname}>{title}</Link>
             </PageWrapper>
           );
         })}
