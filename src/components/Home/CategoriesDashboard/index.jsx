@@ -7,7 +7,7 @@ import {
   Wrapper,
   DashBoard,
   FilterButton,
-} from './style';
+} from './styled';
 import { data } from '../../../mock/Categories/categories';
 import { Dashboard } from '../../../context/Dashboard';
 import Banner from '../../../assets/imgs/banner.png';

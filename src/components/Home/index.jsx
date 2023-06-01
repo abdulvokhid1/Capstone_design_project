@@ -1,9 +1,9 @@
 import React from 'react';
-import Categories from './Categories Dashboard';
+import Categories from './CategoriesDashboard';
 import CreateNewsletter from './CreateNewsletter';
-import MainCard from './MainCard';
+import MainCard from './Maincard';
 import MapData from './MapData';
-import { Container } from './style';
+import { Container } from './styled';
 // import { data } from '../../utils/auth/data';
 
 const Home = () => {
